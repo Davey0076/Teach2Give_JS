@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem;
+    
+}
+
+.container img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item{
+    border: 1px solid black;
+    border-radius: 7px;
+   align-items: center;
+   text-align: center;
+    
+}
+
+.item:hover {
+    transform: scale(1.05);
+
+}
+
+button, .item h2, h3, p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.item__buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.item__buttons button{
+    background-color: black;
+    color:white;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    cursor: pointer;
+}
