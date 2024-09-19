@@ -44,3 +44,7 @@ button, .item h2, h3, p {
     border-radius: 10px;
     cursor: pointer;
 }
+
+.item__buttons button:hover{
+    background-color: gray;
+}
